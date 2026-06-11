@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Gymify",
+    "slug": "gymify",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0E0E0E"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.gymify.app"
+    },
+    "android": {
+      "package": "com.gymify.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0E0E0E"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
